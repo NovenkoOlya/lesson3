@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(176,233,238);
+background: linear-gradient(90deg, rgba(176,233,238,1) 2%, rgba(209,245,207,1) 7%, rgba(241,197,242,1) 20%, rgba(188,183,245,1) 33%, rgba(112,212,230,1) 48%, rgba(198,182,249,1) 67%, rgba(141,194,228,1) 88%, rgba(183,199,231,1) 100%, rgba(226,200,244,1) 100%, rgba(23,199,177,1) 125%);
+color: rgb(32, 7, 90);
+font-size: 18px;;
+font-weight: 400;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 50vh;
+}
+h1{
+    font-size:36px;
+    text-align: center;
+}
+th,td{
+    height:125px;
+    width:200px;
+    text-align: center;
+    border: 2px solid black;
+}
+h1:hover{
+    color:rgb(189, 41, 78);
+}
+th:hover{
+    color:rgb(189, 41, 78);
+}
+td:hover{
+    background: rgb(132,176,255);
+    background: linear-gradient(90deg, rgba(132,176,255,1) 0%, rgba(156,164,241,1) 6%, rgba(112,136,230,1) 15%, rgba(91,150,218,1) 40%, rgba(97,146,221,1) 96%); ;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
